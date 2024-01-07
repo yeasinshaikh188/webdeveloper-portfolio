@@ -1,20 +1,21 @@
 /* common shared styles */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
-background: #FD6E0A;
-color: white;
-border: 0;
-font-size: 20px;
-font-weight: 700;
-padding: 15px 35px;
+    background: #FD6E0A;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 
 
@@ -24,38 +25,88 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0 200px;
-  
+
 }
-.nav-title{
+
+.nav-title {
     color: black;
 
-font-size: 45px;
+    font-size: 45px;
 
-font-weight: 800;
+    font-weight: 800;
 
 }
-nav > ul{
+
+nav>ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:  #474747;
+    color: #474747;
 }
+
 /* header related style */
-.header{
+.header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .progile-pic{
+
+.banner-content {
+    max-width: 500px;
+}
+
+.section-title {
+
+    color: #181818 text-align: center;
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.banner .progile-pic {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    color: #181818;
+    margin-bottom: 0;
+
+}
+
+.banner-title {
+    font-size: 85px;
+
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* main section styles */
+
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
 }
