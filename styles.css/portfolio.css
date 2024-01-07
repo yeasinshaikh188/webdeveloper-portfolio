@@ -103,11 +103,14 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
+main section {
+    margin-top: 130px;
+}
 
 /* about section styles */
 .about {
@@ -117,15 +120,52 @@ main{
     margin: 130px 0;
 }
 
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     text-align: center;
 
 }
-#what-i-do-description{
+
+#what-i-do-description {
     padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-description {
+    color: #757575;
+}
+
+.section-title {
+    display: flex;
+}
+
+span {
+    align-items: center;
+    font-size: 30px;
+}
+
+.resume-colum-title {
+    color: #474747;
+
+    font-size: 30px;
+
+    font-weight: 700;
+
 }
